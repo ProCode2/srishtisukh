@@ -1,0 +1,39 @@
+.logo {
+    text-shadow: 1px 2px 2px #bfafaf;
+}
+
+.img-logo {
+    box-shadow:
+    0 0 15px 10px #fff,  /* inner white */
+    0 0 20px 15px #f0f, /* middle magenta */
+    0 0 30px 30px #0ff; /* outer cyan */
+    transition: all 600ms ease-in;
+}
+
+.img-logo:hover {
+    box-shadow:
+    0 0 30px 30px #0ff,  /* inner white */
+    0 0 15px 10px #fff, /* middle magenta */
+    0 0 20px 15px #f0f; /* outer cyan */
+}
+
+.nav-option:hover {
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px #bfafaf;
+}
+
+.container {
+    background-image: url("./instruments.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.profile-img {
+    box-shadow: 25px 15px 20px 20px rgba(135, 129, 134, 0.5);
+    transition: all 400ms ease-in;
+}
+
+.profile-img:hover {
+    transform: rotate(-4deg) scale(0.9);
+}
